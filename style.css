@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+.carta {
+    margin-left: 2rem;
+}
+
+.image-tarjeta {
+    margin-left: 1rem;
+}
+
+.botone {
+    margin-left: 4.5rem;
+}
