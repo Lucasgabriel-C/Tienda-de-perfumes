@@ -1,5 +1,25 @@
-body {
-    background-color: black;
+header {
+    background-image: url(Imagenes/fondo.jfif);
+    height: 900px;
+    display: block;
+}
+.titulo {
+    padding: 300px 200px;
+    text-align: center ;
+}
+.lista1{
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+
+}
+
+
+main {
+    background-image: url(Imagenes/fondo.1.jfif);
+    
 }
 
 .carta {
