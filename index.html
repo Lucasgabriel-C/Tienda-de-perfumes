@@ -16,76 +16,213 @@
 <body>
     <!-- inicio de header -->
     <header>
-        <!-- Carrito -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Tienda de Perfumes TExtil</a>
-                <button id="toggleMyModal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
-                    Carrito <i class="bi bi-bag-check-fill"></i>
-                </button>
-            </div>
-            </div>
-        </nav>
-        
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                    <th scope="col">ID</th>
-                                    <th scope="col">Nombre</th>
-                                    <th scope="col">Cantidad</th>
-                                    <th scope="col">Precio</th>
-                                    <th scope="col">Total</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="items"></tbody>
-                                <tfoot>
-                                    <tr id="footer">
-                                    <th scope="row" colspan="5">Su carrito esta vacio</th>
-                                    </tr>
-                                </tfoot>
-                                </table>
-                            <div class="row" id="cards"></div>
-                        </div>
-                    
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary">Finalizar compra</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
     </header>
     <!-- fin del header -->
     <!-- inicio del main -->
     <main>
 
-        <!-- Difusor -->
+        <!-- Textil -->
         <p>Difusor textil</p>
-        <section class="d-flex justify-content-center mt-5 contenedor-textil">
-            <article class="container">
-                <div id="contenedor-productos" class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="card m-3 p-3">
-                        <img src="Imagenes/textil/textil.chicle.webp" class="card-img-top" alt="Bubblegum">
+<div class="container text-center">
+    <div class="row align-items-start">
+        <div class="col">
+            <div class="card my-3" style="width: 18rem;">
+                <img src="Imagenes/textil/textil.chicle.png" class="card-img-top" alt="Boobblegum">
+                    <div class="card-body">
+                        <h5 class="card-title">BOOBBLEGUM</h5>
+                        <p class="card-text">$500</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card my-3" style="width: 18rem;">
+                    <img src="Imagenes/textil/textil.cocovai.png" class="card-img-top" alt="Cocovai">
                         <div class="card-body">
-                            <h5>Bubblegum</h5>
-                            <p>500 ARS</p>
-                            <button class="btn btn-success">Comprar</button>
+                            <h5 class="card-title">COCOVAI</h5>
+                            <p class="card-text">$500</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
                 </div>
-            </article>
-        </section>
+                <div class="col">
+                    <div class="card my-3" style="width: 18rem;">
+                        <img src="Imagenes/textil/textil.invicus.png" class="card-img-top" alt="Invictus">
+                            <div class="card-body">
+                                <h5 class="card-title">INVICTUS</h5>
+                                <p class="card-text">$500</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="card my-3" style="width: 18rem;">
+                            <img src="Imagenes/textil/textil.lavanda.png" class="card-img-top" alt="Lavanda">
+                                <div class="card-body">
+                                    <h5 class="card-title">LAVANDA</h5>
+                                    <p class="card-text">$500</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card my-3" style="width: 18rem;">
+                                <img src="Imagenes/textil/textil.limon.png" class="card-img-top" alt="Limon">
+                                    <div class="card-body">
+                                        <h5 class="card-title">LIMON</h5>
+                                        <p class="card-text">$500</p>
+                                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card my-3" style="width: 18rem;">
+                                    <img src="Imagenes/textil/textil.lola.png" class="card-img-top" alt="Lola">
+                                        <div class="card-body">
+                                            <h5 class="card-title">LOLA</h5>
+                                            <p class="card-text">$500</p>
+                                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-end">
+                                <div class="col">
+                                    <div class="card my-3" style="width: 18rem;">
+                                        <img src="Imagenes/textil/textil.onemillion.png" class="card-img-top" alt="Onemillon">
+                                            <div class="card-body">
+                                                <h5 class="card-title">OneMillon</h5>
+                                                <p class="card-text">$500</p>
+                                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card my-3" style="width: 18rem;">
+                                            <img src="Imagenes/textil/textil.paula.png" class="card-img-top" alt="Paula">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">PAULA</h5>
+                                                    <p class="card-text">$500</p>
+                                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card my-3" style="width: 18rem;">
+                                                <img src="Imagenes/textil/textil.pitanga.png" class="card-img-top" alt="Pitanga">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">PITANGA</h5>
+                                                        <p class="card-text">$500</p>
+                                                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+    <!-- Varilla -->
+        <p>Difusor en Varilla</p>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="card my-3" style="width: 18rem;">
+                        <img src="Imagenes/varilla/varilla.bamboo.png" class="card-img-top" alt="Bamboo">
+                            <div class="card-body">
+                                <h5 class="card-title">BAMBOO</h5>
+                                <p class="card-text">$500</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-3" style="width: 18rem;">
+                            <img src="Imagenes/varilla/varilla.cappucino.png" class="card-img-top" alt="Cappucino">
+                                <div class="card-body">
+                                    <h5 class="card-title">CAPPUCINO</h5>
+                                    <p class="card-text">$500</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card my-3" style="width: 18rem;">
+                                <img src="Imagenes/varilla/varilla.chicle.png" class="card-img-top" alt="Boobblegum">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BOOBBLEGUM</h5>
+                                        <p class="card-text">$500</p>
+                                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="card my-3" style="width: 18rem;">
+                                    <img src="Imagenes/varilla/varilla.cony.png" class="card-img-top" alt="Cony">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CONY</h5>
+                                            <p class="card-text">$500</p>
+                                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card my-3" style="width: 18rem;">
+                                        <img src="Imagenes/varilla/varilla.hawai.png" class="card-img-top" alt="Hawai">
+                                            <div class="card-body">
+                                                <h5 class="card-title">HAWAI</h5>
+                                                <p class="card-text">$500</p>
+                                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card my-3" style="width: 18rem;">
+                                            <img src="Imagenes/varilla/varilla.limon.png" class="card-img-top" alt="Limon">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">LIMON</h5>
+                                                    <p class="card-text">$500</p>
+                                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-end">
+                                        <div class="col">
+                                            <div class="card my-3" style="width: 18rem;">
+                                                <img src="Imagenes/varilla/varilla.london.png" class="card-img-top" alt="London">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">LONDON</h5>
+                                                        <p class="card-text">$500</p>
+                                                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card my-3" style="width: 18rem;">
+                                                    <img src="Imagenes/varilla/varilla.marino.png" class="card-img-top" alt="Marino">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">MARINO</h5>
+                                                            <p class="card-text">$500</p>
+                                                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card my-3" style="width: 18rem;">
+                                                        <img src="Imagenes/varilla/varilla.teVerde.png" class="card-img-top" alt="Teverde">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Te Verde</h5>
+                                                                <p class="card-text">$500</p>
+                                                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
         
 </main>
     <!-- fin del main -->
@@ -100,8 +237,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script src="productos.js"></script>
-    <script src="tienda.js"></script>
 </body>
 
 </html>
